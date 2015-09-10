@@ -7,12 +7,12 @@ app.directive('showTime', [function() {
 			
 			vm.time = new Date();
 			vm.refreshDate = true;
-			for(var i = 0; i < 5; i++) {
-				setTimeout(function() {
-					vm.time = new Date();
-					console.log(vm.time);
-				}, 1000 * i)
-			}
+			// for(var i = 0; i < 5; i++) {
+			// 	setTimeout(function() {
+			// 		vm.time = new Date();
+			// 		console.log(vm.time);
+			// 	}, 1000 * i)
+			// }
 		},
 		controllerAs: 'vm'
 	}
